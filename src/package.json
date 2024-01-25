@@ -2,10 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.js",  // Update this line
   "scripts": {
+    "start": "node src/server.js",  // Update this line
+    "build": "echo 'No build step required'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",

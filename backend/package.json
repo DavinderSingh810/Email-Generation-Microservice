@@ -2,10 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "backend/server.js",
+  "main": "server.js", // Adjusted the path to match the file's location
   "scripts": {
-    "start": "node backend/server.js",
-    "build": "yarn install",
+    "start": "node server.js", // Adjusted the start script
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

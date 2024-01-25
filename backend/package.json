@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.js",  // Update this line
+  "main": "src/server.js", 
   "scripts": {
-    "start": "node src/server.js",  // Update this line
+    "start": "node src/server.js",  
     "build": "echo 'No build step required'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
